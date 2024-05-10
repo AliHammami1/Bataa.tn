@@ -8,6 +8,7 @@ import { MainFooterModule } from 'src/app/core/default-layout/main-footer/main-f
 import { ControlSidebarModule } from 'src/app/core/default-layout/control-sidebar/control-sidebar.module';
 import { SharedAppModule } from 'src/app/core/shared/shared.module';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
+import {NgChartsModule} from 'ng2-charts';
 
 @NgModule({
   imports: [
@@ -18,7 +19,9 @@ import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
     ControlSidebarModule,
     MainFooterModule,
     SharedAppModule,
-    MatProgressSpinnerModule
+    MatProgressSpinnerModule,
+    NgChartsModule,
+
   ],
   declarations: [DashboardComponent]
 })
